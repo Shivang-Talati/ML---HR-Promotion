@@ -1,1 +1,11 @@
+Steps Followed:
+1) First I have imported the data and then checked for the basic information like its shape, dimension and the data's descriptive statistics. The data is named as 'hr'.
+2) I then have created a copy of the data as 'hr1' and then checked for its duplicates which turned out to be 0.
+3) Then, I have done feature selection where 2 columns were dropped and then checked for missing values, and handled the missing values for each column respectively. Later i have checked for outliers via boxplots.
+4) Moving ahead, I have created the X and Y variables, scaled and then split the data to build the model.
+5) The model is build via Logistic Regression and then it has been evaluated.
+6) As there are many 'Type II' errors in the confusion matrix, we then Tune the model to get better accuracy with less number of errors.
+7) While tuning the model I have done trials with and evaluated the models with 2 different tresholds that is 0.43 and 0.44.
+8) Once that we have completed working on the training data, we then follow the similar steps on the test data as well.
+9) Note: we dont have the 'Y' variable in test data and also we dont have to build the model on the test data. We just scale and predict the test data on the basis of train data. The test data is for evaluation only, to measure how well the model is. Training on it would give a misleading data of the model's performance.
 
